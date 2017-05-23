@@ -1,0 +1,33 @@
+{
+  "name": "ecmascript-helpers",
+  "version": "0.0.1",
+  "description": "Some EcmaScript helpers for web application development.",
+  "main": "index.js",
+  "scripts": {
+    "our:test": "./node_modules/.bin/eslint ./ES6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnivUnix/EsH.git"
+  },
+  "keywords": [
+    "ecmascript",
+    "helpers"
+  ],
+  "author": "UnivUnix",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/UnivUnix/EsH/issues"
+  },
+  "homepage": "https://github.com/UnivUnix/EsH#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
