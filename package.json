@@ -4,7 +4,8 @@
   "description": "Some EcmaScript helpers for web application development.",
   "main": "index.js",
   "scripts": {
-    "our:test": "./node_modules/.bin/eslint ./ES6"
+    "our:test": "./node_modules/.bin/eslint ./ES6",
+    "our:es2015": "./node_modules/.bin/babel ./ES6 --out-dir ./ES2015 --presets es2015"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.2.0",
