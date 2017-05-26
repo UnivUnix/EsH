@@ -4,6 +4,7 @@
   "description": "Some EcmaScript helpers for web application development.",
   "main": "index.js",
   "scripts": {
+    "our:build": "npm run our:test && npm run our:es2015",
     "our:test": "./node_modules/.bin/eslint ./ES6",
     "our:es2015": "./node_modules/.bin/babel ./ES6 --out-dir ./ES2015 --presets es2015"
   },
@@ -31,5 +32,8 @@
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2"
   }
 }

@@ -11,10 +11,10 @@
 export class Ajax {
   constructor () {
     /** @access private */
-    const UNKNOWN_ERROR = 1;
-    const NO_URL_DEFINED = 10;
-    const NO_HEADER_DEFINED = 11;
-    const NO_DATA = 12;
+    this.UNKNOWN_ERROR = 1;
+    this.NO_URL_DEFINED = 10;
+    this.NO_HEADER_DEFINED = 11;
+    this.NO_DATA = 12;
   }
   /**
    * Function that make an AJAX GET request.
